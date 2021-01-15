@@ -23,3 +23,6 @@ sourceMe.sh found in the container\_env directory.
     ├── run.py
     └── testrun.py
 ```
+
+## Notes:
+- Tested on MacOS 10.15.7
