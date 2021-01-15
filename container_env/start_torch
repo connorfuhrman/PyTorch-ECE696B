@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Simply calls docker run with the correct arguments to bring the container
+# to run the "run.py" script in current directory (host machine)
+docker run --rm -it -v"(pwd)":/home connorfuhrman/pytorch-ece696b:latest

@@ -1,0 +1,8 @@
+### Requirements for ECE 696B: Advanced Topics in ML ###
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+torch
+torchvision
