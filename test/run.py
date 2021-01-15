@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 
-def main():
-    print("Hello world!!")
-    print("If you're seeing this, the Docker container should be working!!")
+# Import from another file in the same directory
+import testrun
+
+def run():
+	# Execute the main() function from testrun.py
+	testrun.main()
 
 if __name__ == '__main__':
-    main()
+	# Executing the driver function when exec'd as main
+	print("Executing from run.py ... ")
+	run()
